@@ -1,1 +1,4 @@
-nt: no siento que los msg en los anteriores commit sean buenos, debo informarme mejor sobre la estructura, hacerlos en ingles creo que le pone un nivel mas de complejidad, tambien hago este msg para ver como interactua desde windows a git y despues en la VM, para poner en practica como actualizar el directorio desde otro dispositivo, y luego aplicar esos cambios a otra maquina que tenga una version anterior.(probablemente despues elimine este mensaje)
+Project: Recipes
+    The Odin Project
+
+Primer proyecto terminado de "TOP". 
