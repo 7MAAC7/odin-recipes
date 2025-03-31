@@ -1,0 +1,15 @@
+body{
+    background-color:#84e37f;
+}
+#h1title{
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    background-color: rgb(20, 19, 22);
+    align-items: center;
+    
+}
