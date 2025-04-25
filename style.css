@@ -7,7 +7,10 @@ h1{
     background-color: black;
     color:white;
     font-size: 50px;
-    
+    border: white dotted 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #rnrp{
     background-color: red;
@@ -34,26 +37,16 @@ h2{
     text-align: center;
     font-weight: bold;
 }
-img{
+/*img{
     width: 350px;
     position: relative;
-    left: 35%; /* solo para provar, deberia haber otra manera de centrar mejor una imagen*/
-}
+    left: 35%; /* solo para provar, deberia haber otra manera de centrar mejor una imagen
+}*/
 
-.lista{
-    
-    position: relative;
-    margin: auto;
-    width: fit-content;
-    height: fit-content;
 
-    background-color: rgb(24, 23, 26);
-   
-    
-}
 /*
-Agrege css a el tag <a>, ahora con borde, padding y hover, deberia parecer un boton
-add ccs to <a> tag, to look loke a button
+Agrege css al tag <a>, ahora con borde, padding y hover, deberia parecer un boton
+add ccs to <a> tag, to look like a button
 */
 .Home{
     text-decoration: none;
@@ -64,11 +57,54 @@ add ccs to <a> tag, to look loke a button
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
+    text-align: center;
     
-    
-
+    margin:15px auto;
+    display: block;
 
 }
-.Home:hover{
+.Home:hover{ /*hover para que al pasar el mouse por encima cambie de color*/
     background-color: rgb(0, 132, 255);
+}
+/* estilos a los links de index que direccionana cada receta*/
+.recipeslink{
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    color: rgb(12, 82, 104);
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 20px;
+    border:solid greenyellow 2px;
+    margin: 15px auto;
+    border-radius: 10px;
+    width: fit-content ;
+    height: fit-content;
+}
+.recipeslink:hover{
+    background-color: #b7fc78;
+    border-color: gold;
+}
+.lista{
+    /*DIV- en el que estan los <a> de las recetas
+    div with the tag of recipes
+    */
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(24, 23, 26);
+    border-radius: 20px;
+   
+}
+/* centrado de la imagen
+    img center
+*/
+.imagediv{
+    border-style: dashed;
+    border-color: #ffffff;
+    text-align: center;
+}
+img{
+    width: 400px;
+    margin: 15px auto;
 }
