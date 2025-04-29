@@ -17,7 +17,7 @@ h1{
     font-weight: bold;
 }
 #ls{
-    background-color: rgb(0, 255, 42);
+    background-color: rgba(30, 133, 47, 0.479);
     font-weight: bold;
 }
 #orc{
@@ -100,11 +100,24 @@ add ccs to <a> tag, to look like a button
     img center
 */
 .imagediv{
-    border-style: dashed;
+    border: 5px;
+    border-style: inset;
     border-color: #ffffff;
     text-align: center;
 }
 img{
     width: 400px;
     margin: 15px auto;
+}
+/* agrege un div para probar si podia hacer que se pareciara al de los videos interactivos de TOP
+    add a div to look like the examples interactives video
+*/
+.recepicontainer{
+    border: white  5px;
+    border-style: double;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #aff084;
+
 }
