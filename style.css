@@ -12,26 +12,7 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#rnrp{
-    background-color: red;
-    font-weight: bold;
-}
-#ls{
-    background-color: rgba(30, 133, 47, 0.479);
-    font-weight: bold;
-}
-#orc{
-    background-color: rgb(255, 196, 0);
-    font-weight: bold;
-}
-#bl{
-    background-color: rgb(5, 148, 5);
-    font-weight: bold;
-}
-#rlgc{
-    background-color: #0c0b69;
-    font-weight: bold;
-}
+
 
 h2{
     text-align: center;
@@ -59,12 +40,13 @@ add ccs to <a> tag, to look like a button
     border-radius: 10px;
     text-align: center;
     
-    margin:15px auto;
+    margin:25px auto;
     display: block;
 
 }
 .Home:hover{ /*hover para que al pasar el mouse por encima cambie de color*/
     background-color: rgb(0, 132, 255);
+    border-color: #ffffff;
 }
 /* estilos a los links de index que direccionana cada receta*/
 .recipeslink{
@@ -101,8 +83,9 @@ add ccs to <a> tag, to look like a button
 */
 .imagediv{
     border: 5px;
-    border-style: inset;
-    border-color: #ffffff;
+    border-style: dashed;
+    border-color:rgb(255, 255, 255);
+    border-radius: 50px;
     text-align: center;
 }
 img{
@@ -115,9 +98,50 @@ img{
 .recepicontainer{
     border: white  5px;
     border-style: double;
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
-    padding: 20px;
-    background-color: #aff084;
+    padding: 0 20px;
+   
 
 }
+.recepicontainer.lamb{
+    background-color: #aff084;
+}
+#ls{
+    background-color: rgba(30, 133, 47, 0.479);
+    font-weight: bold;
+}
+.recepicontainer.potato{
+    background-color: #e68989;
+}
+#rnrp{
+    background-color: red;
+    font-weight: bold; 
+}
+.recepicontainer.lasagna{
+    background-color:#93bb93;
+}
+#bl{
+    background-color: rgb(5, 148, 5);
+    font-weight: bold;
+}
+.recepicontainer.chicken{
+    background-color: #918fff;
+}
+#rlgc{
+    background-color: #2938ff;
+    font-weight: bold;
+}
+.recepicontainer.curry{
+    background-color: #d9f379;
+}
+#orc{
+    background-color: rgb(255, 196, 0);
+    font-weight: bold;
+}
+
+
+.D{
+    text-align: center
+}
+
